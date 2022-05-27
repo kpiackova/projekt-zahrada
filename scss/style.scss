@@ -1,0 +1,46 @@
+@use "layout/header";
+@use "abstracts/colors";
+
+/*
+    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Poppins', sans-serif;
+*/
+
+
+html {
+    box-sizing: border-box;
+}
+
+*, ::before, ::after {
+    box-sizing: inherit;
+}
+
+body {
+    background-color: colors.$c-white;
+    font-family: 'Poppins', sans-serif;
+    color: colors.$c-black;
+    margin: 1rem 4rem;
+}
+
+
+.hero {
+    display: flex;
+
+        &__text {
+            inline-size: 580px;
+         
+        }
+
+        &__title {
+            font-size: 6rem;
+            line-height: 1;
+            font-weight: 500;
+        }
+
+        &__subtitle {
+            font-size: 1.6rem;
+            font-weight: 300;
+            color: colors.$c-grey;
+        }
+}
+

@@ -1,0 +1,91 @@
+@use "../abstracts/colors";
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    
+    &__img {
+        height: 60%;
+    }
+}
+
+.menu {
+   display: flex;
+
+    &__list {
+        display: flex;
+        position: relative;
+        white-space: nowrap;
+    }
+
+    &__item {
+        list-style: none;
+        padding-right: 3rem;
+    }
+
+    &__link {
+        text-decoration: none;
+        color: colors.$c-black;
+        font-weight: 300;
+    }
+
+    &__dropdown {
+        display: none;
+        position: absolute;
+        background-color: #f1f1f1;
+        min-width: 160px;
+        box-shadow: 2px 2px 6px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+        padding: 0;
+    }
+
+    &__dropdown-item {
+        list-style: none;
+        
+        &:hover {
+            background-color: rgba(169, 97, 95, 0.5); 
+        }
+    }
+
+    &__dropdown-link {
+        text-decoration: none;
+        color: colors.$c-black;
+        font-weight: 300;
+        display: inline-block;
+        padding: 10px 20px;
+    }
+}
+
+
+.menu__item:hover .menu__dropdown {
+    display: block;
+}
+
+/* hover stav hlavního linku při otevřeném dropdownu*/
+.menu__item:hover .menu__link {
+    text-shadow: 0.2px 0.2px 0.1px black;
+}
+
+
+.lang-switcher {
+    display: flex;
+
+    &__item {
+        list-style: none;
+        padding: 0 8px;
+    }
+
+    &__link {
+        text-decoration: none;
+        color: colors.$c-black;
+        font-weight: 300;
+    }
+   
+}
+
+
+
+/*
+<i class="fa-solid fa-chevron-up"></i>
+<i class="fa-solid fa-chevron-down"></i>
+*/
