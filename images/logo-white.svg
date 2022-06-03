@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="127.589"
+   height="64.112"
+   viewBox="0 0 33.758 16.963"
+   version="1.1"
+   id="svg18"
+   sodipodi:docname="logo-white.svg"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)">
+  <metadata
+     id="metadata24">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs22" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1027"
+     id="namedview20"
+     showgrid="false"
+     inkscape:zoom="3.0723652"
+     inkscape:cx="9.601723"
+     inkscape:cy="32.056"
+     inkscape:window-x="1432"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg18" />
+  <g
+     aria-label="ZÁMECKÁ"
+     style="font-style:normal;font-variant:normal;font-weight:400;font-stretch:normal;font-size:21.33333397px;line-height:1.25;font-family:Poppins;-inkscape-font-specification:'Poppins, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0;word-spacing:0;writing-mode:lr-tb;text-anchor:start;fill:#f5f3f1;fill-opacity:1;stroke:none"
+     id="g4">
+    <path
+       d="M233.99 302.448h7.617v1.322h-9.365v-1.194l7.509-12.395h-7.381v-1.323h9.13v1.195zM252.88 300.229h-6.785l-1.301 3.541h-1.579l5.44-14.72h1.686l5.418 14.72h-1.578zm-.449-1.237-2.944-8.064-2.944 8.064zm-.96-13.376-4.373 2.538v-1.152l4.373-2.73zM272.727 289.05v14.72h-1.494v-11.754l-5.248 11.754h-1.088l-5.248-11.712v11.712h-1.493v-14.72h1.579l5.696 12.758 5.696-12.758zM277.608 290.074v5.568h5.653v1.238h-5.653v5.653h6.293v1.237h-7.787v-14.933h7.787v1.237zM286.182 296.304q0-2.198.96-3.926.96-1.75 2.624-2.71 1.664-.98 3.712-.98 2.496 0 4.266 1.194 1.792 1.174 2.603 3.328h-1.75q-.64-1.514-1.962-2.368-1.301-.853-3.157-.853-1.643 0-2.966.768-1.301.768-2.048 2.219-.746 1.429-.746 3.328 0 1.898.746 3.328.747 1.429 2.048 2.197 1.323.768 2.966.768 1.856 0 3.157-.832 1.323-.853 1.963-2.347h1.749q-.81 2.134-2.603 3.307-1.792 1.173-4.266 1.173-2.048 0-3.712-.96-1.664-.981-2.624-2.71-.96-1.727-.96-3.924zM311.28 303.77l-6.464-6.89v6.89h-1.493v-14.912h1.493v6.976l6.464-6.976h1.899l-6.976 7.446 7.04 7.466zM324.088 300.229h-6.784l-1.302 3.541h-1.578l5.44-14.72h1.685l5.419 14.72h-1.58zm-.448-1.237-2.944-8.064-2.944 8.064zm-.96-13.376-4.374 2.538v-1.152l4.374-2.73z"
+       style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:21.33333397px;font-family:Poppins;-inkscape-font-specification:'Poppins, Light';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#f5f3f1;fill-opacity:1"
+       transform="matrix(.26458 0 0 .26458 -58.831 -75.075)"
+       id="path2" />
+  </g>
+  <g
+     aria-label="ZAHRADA"
+     style="font-style:normal;font-variant:normal;font-weight:400;font-stretch:normal;font-size:16px;line-height:1.25;font-family:sans-serif, arial;-inkscape-font-specification:'sans-serif, arial';letter-spacing:0;word-spacing:0;fill:#f5f3f1;fill-opacity:1;stroke:none"
+     id="g8">
+    <path
+       d="M233.99 302.448h7.617v1.322h-9.365v-1.194l7.509-12.395h-7.381v-1.323h9.13v1.195zM252.88 300.229h-6.785l-1.301 3.541h-1.579l5.44-14.72h1.686l5.418 14.72h-1.578zm-.449-1.237-2.944-8.064-2.944 8.064zM269.228 288.858v14.912h-1.493v-6.976h-8.086v6.976h-1.493v-14.912h1.493v6.699h8.086v-6.699zM280.592 303.77l-3.69-6.23h-2.753v6.23h-1.493v-14.912h4.48q2.496 0 3.776 1.195 1.301 1.195 1.301 3.136 0 1.621-.938 2.773-.918 1.13-2.731 1.472l3.84 6.336zm-6.443-7.445h3.008q1.75 0 2.624-.853.896-.854.896-2.283 0-1.472-.853-2.261-.853-.811-2.688-.811h-2.987zM293.838 300.229h-6.784l-1.302 3.541h-1.578l5.44-14.72h1.685l5.419 14.72h-1.58zm-.448-1.237-2.944-8.064-2.944 8.064zM303.53 288.858q2.475 0 4.246.896 1.77.896 2.709 2.582.939 1.685.939 4.01 0 2.304-.94 3.99-.938 1.664-2.708 2.56-1.771.874-4.246.874h-4.416v-14.912zm0 13.675q3.115 0 4.736-1.621 1.643-1.643 1.643-4.566 0-2.944-1.643-4.586-1.621-1.664-4.736-1.664h-2.922v12.437zM322.796 300.229h-6.784l-1.301 3.541h-1.58l5.44-14.72h1.686l5.419 14.72h-1.579zm-.448-1.237-2.944-8.064-2.944 8.064z"
+       style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:21.33333397px;font-family:Poppins;-inkscape-font-specification:'Poppins, Light';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#f5f3f1;fill-opacity:1"
+       transform="matrix(.26458 0 0 .26458 -58.889 -69.675)"
+       id="path6" />
+  </g>
+  <g
+     aria-label="V MIKULOVĚ"
+     style="font-style:normal;font-variant:normal;font-weight:400;font-stretch:normal;font-size:16px;line-height:1.25;font-family:sans-serif, arial;-inkscape-font-specification:'sans-serif, arial';letter-spacing:0;word-spacing:0;fill:#f5f3f1;fill-opacity:1;stroke:none"
+     id="g12">
+    <path
+       d="m244.85 288.858-5.654 14.912h-1.706l-5.654-14.912h1.622l4.885 13.29 4.928-13.29zM267.477 289.05v14.72h-1.494v-11.754l-5.248 11.754h-1.088l-5.248-11.712v11.712h-1.493v-14.72h1.579l5.696 12.758 5.696-12.758zM272.358 288.858v14.912h-1.494v-14.912zM283.697 303.77l-6.464-6.89v6.89h-1.494v-14.912h1.494v6.976l6.464-6.976h1.898l-6.976 7.446 7.04 7.466zM289.294 288.858v9.387q0 2.219 1.045 3.285 1.067 1.067 2.901 1.067 1.835 0 2.859-1.045 1.045-1.067 1.045-3.307v-9.387h1.494v9.366q0 2.837-1.515 4.266-1.493 1.43-3.904 1.43-2.41 0-3.925-1.43-1.494-1.43-1.494-4.266v-9.366zM303.44 302.554h5.356v1.216h-6.848v-14.912h1.493zM317.646 303.92q-2.07 0-3.754-.96-1.686-.982-2.667-2.71-.96-1.75-.96-3.946 0-2.198.96-3.926.981-1.75 2.667-2.71 1.685-.98 3.754-.98 2.09 0 3.776.98 1.686.96 2.646 2.71.96 1.728.96 3.926 0 2.197-.96 3.946-.96 1.728-2.646 2.71-1.685.96-3.776.96zm0-1.302q1.664 0 2.987-.768 1.323-.768 2.09-2.197.769-1.45.769-3.35 0-1.898-.768-3.327-.768-1.43-2.091-2.198-1.323-.768-2.987-.768-1.664 0-2.986.768-1.323.768-2.091 2.198-.768 1.429-.768 3.328 0 1.898.768 3.349.768 1.43 2.09 2.197 1.323.768 2.987.768zM339.558 288.858l-5.653 14.912h-1.707l-5.653-14.912h1.62l4.886 13.29 4.928-13.29zM343.274 290.074v5.568h5.654v1.238h-5.654v5.653h6.294v1.237h-7.787v-14.933h7.787v1.237zm4.95-3.99-2.86 1.75-2.858-1.75v-1.194l2.859 1.77 2.859-1.77z"
+       style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:21.33333397px;font-family:Poppins;-inkscape-font-specification:'Poppins, Light';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#f5f3f1;fill-opacity:1"
+       transform="matrix(.26458 0 0 .26458 -58.732 -64.314)"
+       id="path10" />
+  </g>
+  <path
+     style="opacity:1;fill:#c4a000;fill-opacity:0;stroke-width:.26458332"
+     fill="none"
+     d="M23.057 68.891h11.528v20.6H23.057zM49.326 81.365h3.307v33.09h-3.307zM-8.788 90.908h28.443v8.126H-8.788z"
+     transform="translate(-50.016 -67.315)"
+     id="path14" />
+  <path
+     style="opacity:1;fill:#f5f3f1;fill-opacity:1;stroke-width:0.25448132"
+     d="M50.016 67.315h.794v16.963h-.794z"
+     transform="translate(-50.016 -67.315)"
+     id="path16" />
+</svg>

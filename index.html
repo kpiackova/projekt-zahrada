@@ -1,119 +1,98 @@
-<!DOCTYPE html>
-<html lang="cs">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Zámecká zahrada v Mikulově</title>
+---
+layout: layouts/my-layout.njk
+title: Zámecká zahrada v Mikulově
+---
 
-    <link rel="stylesheet" href="css/style.css">
+<main class="main">
+    <section class="hero">
+        <div class="hero__text">
+            <h1 class="hero__title">Zámecká zahrada v&nbspMikulově</h1>
+            <p class="hero__subtitle">Prozkoumejte historickou architekturu a&nbspbotanické bohatství zámecké zahrady.</p>
+        </div>
+        <div class="hero__image"><img class="hero__img" src="/images/obora-lusthaus.svg"></div>
+        <div class="hero__ribbons">
+            <div class="hero__ribbon hero__ribbon--big"><a href="/kontakt/" class="hero__ribbon-link">Rezervace prohlídky</a></div>
+            <div class="hero__ribbon hero__ribbon--small"><a href="/kontakt/" class="hero__ribbon-link">Mapka</a></div>
+        </div>
+    </section>
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+    <section class="section teaser">
+        <h2 class="section__title">Navštivte</h2>
+        <div class="teaser__strips">
+            <div class="teaser__strip">
+                <h3 class="teaser__subheader">Volný vstup</h3>
+                <div class="teaser__text">zahrada je celoročně volně přístupná</div>
+            </div>
+            <div class="teaser__strip">
+                <h3 class="teaser__subheader">Prohlídky</h3>
+                <div class="teaser__text">od června do září komentované prohlídky denně v&nbsp15 hodin</div>
+            </div>
+            <div class="teaser__strip">
+                <h3 class="teaser__subheader">Muzeum</h3>
+                <div class="teaser__text">navštivte také naše expozice a&nbspsezónní výstavy v&nbspprostorách zámku<a href="https://www.rmm.cz/"><i class="fa-solid fa-arrow-up-right-from-square teaser__link-icon"></i></a>
+                </div>
+            </div>
+            <div class="teaser__strip"></div>
+                <h3 class="teaser__subheader">Svatby, koncerty</h3>
+                <div class="teaser__text">část zahrady je možné pronajmout k&nbspnejrůznějším akcím 
+                    <a href="https://www.pronajmisizamek.cz/"><i class="fa-solid fa-arrow-up-right-from-square teaser__link-icon"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
 
-    <script src="https://kit.fontawesome.com/10b74892cd.js" crossorigin="anonymous"></script>
+    <section class="section cards">
+        <h2 class="section__title">Prozkoumejte</h2>
 
-</head>
-
-<body>
-
-    <header class="header">
-        <div class="header__logo">
-            <img class="header__img" src="/images/logo.svg" alt="logo">
+        <div class="card">
+            <div class="card__image-container">
+                <img class="card__image" src="/images/architektura.jpg" alt="3D model renesančního schodiště">
+            </div>
+            <div class="card__text-container">
+                <h4 class="card__title">Architektura</h4>
+                <h4 class="card__subheader">Historická architektura</h4>
+                <p class="card__text">Prohlédněte si historickou architekturu v podobě 3D modelů zasazených do současného prostoru zahrady.</p>
+                <a class="btn btn__architektura" href="/architektura/">Zjistit víc</a>
+            </div>
         </div>
 
-        <nav class="menu">
-            <ul class="menu__list">
-                <li class="menu__item"><a href="#" class="menu__link">architektura <i class="fa-solid fa-chevron-down"></i></a>
-                    <ul class="menu__dropdown">
-                        <li class="menu__dropdown-item"><a href="#" class="menu__dropdown-link">Renesanční zahrada</a></li>
-                        <li class="menu__dropdown-item"><a href="#" class="menu__dropdown-link">Barokní zahrada</a></li>
-                        <li class="menu__dropdown-item"><a href="#" class="menu__dropdown-link">Zahrada v romantismu</a></li>
-                    </ul>
-                </li>
-
-                <li class="menu__item"><a href="/#/" class="menu__link">krajina panství <i class="fa-solid fa-chevron-down"></i></a>
-                    <ul class="menu__dropdown">
-                        <li class="menu__dropdown-item"><a href="#" class="menu__dropdown-link">Barokní komponovaná krajina</a></li>
-                        <li class="menu__dropdown-item"><a href="#" class="menu__dropdown-link">Mikulovská obora</a></li>
-                    </ul>
-                </li>
-
-                <li class="menu__item"><a href="/#/" class="menu__link">botanika <i class="fa-solid fa-chevron-down"></i></a>
-                    <ul class="menu__dropdown">
-                        <li class="menu__dropdown-item"><a href="#" class="menu__dropdown-link">Co právě kvete?</a></li>
-                        <li class="menu__dropdown-item"><a href="#" class="menu__dropdown-link">Růžová a botanická zahrada</a></li>
-                        <li class="menu__dropdown-item"><a href="#" class="menu__dropdown-link">Botanické dědictví Mikulovska</a></li>
-                    </ul>
-                </li>
-
-                <li class="menu__item"><a href="/#/" class="menu__link">badatelna</a></li>
-                <li class="menu__item"><a href="/#/" class="menu__link">kontakt</a></li>
-            </ul>
-
-            <ul class="lang-switcher">
-                <li class="lang-switcher__item"><a href="url" class="lang-switcher__link lang-switcher__link--active">CZ</a></li><span>|</span>
-                <li class="lang-switcher__item"><a href="url" class="lang-switcher__link">EN</a></li><span>|</span>
-
-                <li class="lang-switcher__item"><a href="url" class="lang-switcher__link">DE</a></li>
-            </ul>
-        </nav>
-    </header>
-    
-    <main>
-        <section class="hero">
-            <div class="hero__text">
-                <h1 class="hero__title">Zámecká zahrada v&nbspMikulově</h1>
-                <p class="hero__subtitle">Prozkoumejte historickou architekturu a&nbspbotanické bohatství zámecké zahrady.</p>
+        <div class="card card--reverse">
+            <div class="card__image-container">
+                <img class="card__image" src="/images/botanika-tulipany.JPG" alt="Tulipány v zahradě">
             </div>
-            <div class="hero__image"><img src="/images/obora-lusthaus.svg"></div>
-            <div class="hero__ribbons">
-                <div class="ribbon ribbon--big"><a href="#" class="ribbon__link">Rezervace prohlídky</a></div>
-                <div class="ribbon ribbon--small"><a href="#" class="ribbon__link">Mapka</a></div>
+            <div class="card__text-container">
+                <h4 class="card__title">Botanika</h4>
+                <h4 class="card__subheader">Co právě kvete?</h4>
+                <p class="card__text">Poznejte botanické dědictví i&nbspsoučasnou druhovou bohatost a&nbsprozmanitost zámecké zahrady a&nbspblízkého okolí.</p>
+                <a class="btn btn__botanika" href="/botanika/">Zjistit víc</a>
             </div>
-        </section>
+        </div>
 
-        <section class="teaser">
-            <h2 class="teaser__title">Navštivte</h2>
+        <div class="card">
+            <div class="card__image-container">
+                <img class="card__image" src="/images/krajina.jpg" alt="3D model loveckého letohrádku v oboře">
+            </div>
+            <div class="card__text-container">
+                <h4 class="card__title">Krajina panství</h4>
+                <h4 class="card__subheader">Mikulovské panství</h4>
+                <p class="card__text">Poznejte krajinu mikulovského panství a&nbspjejí proměny v&nbspprůběhu několika staletí prostřednictvím 3D modelů a&nbspkreseb.</p>
+                <a class="btn btn__krajina" href="/krajina-panstvi/">Zjistit víc</a>
+            </div>
+        </div>
 
-            <h3 class="teaser__subheader">Volný vstup</h3>
-            <p class="teaser__text">zahrada je celoročně volně přístupná </p>
+        <div class="card card--reverse">
+            <div class="card__image-container">
+                <img class="card__image" src="/images/badatelna.jpg" alt="Fotografie Försterovy brány">
+            </div>
+            <div class="card__text-container">
+                <h4 class="card__title">Badatelna</h4>
+                <h4 class="card__subheader">Fotografie, pohlednice, archiválie</h4>
+                <p class="card__text">Prozkoumejte historii zámecké zahrady a&nbspokolí prostřednictvím starých obrazových materiálů.</p>
+                <a class="btn btn__badatelna" href="/badatelna/">Zjistit víc</a>
+            </div>
 
-            <h3 class="teaser__subheader">Prohlídky</h3>
-            <p class="teaser__text">od června do září komentované prohlídky denně v 15 hodin</p>
-
-            <h3 class="teaser__subheader">Muzeum</h3>
-            <p class="teaser__text">navštivte také naše expozice a sezónní výstavy v prostorách zámku a muzea</p>
-
-            <h3 class="teaser__subheader">Svatby</h3>
-            <p class="teaser__text">část zahrady je možné pronajmout k nejrůznějším akcím</p>
-
-        </section>
-
-
-        <h2>Prozkoumejte</h2>
-
-
-
-
-
-
-
-
+        </div>
+    </section>
 
 
-
-
-
-
-
-
-
-    </main>
-
-
-
-
-</body>
-</html>
+</main>

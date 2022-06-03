@@ -1,14 +1,17 @@
 @use "layout/header";
-@use "abstracts/colors";
+@use "layout/header-architecture";
+@use "layout/footer";
+@use "pages/home";
+@use "pages/architektura";
+@use "pages/kontakt";
+@use "components/buttons";
+@use "abstracts/variables";
 
-/*
-    font-family: 'Cormorant Garamond', serif;
-    font-family: 'Poppins', sans-serif;
-*/
 
 
 html {
     box-sizing: border-box;
+    max-width: 100vw;
 }
 
 *, ::before, ::after {
@@ -16,31 +19,11 @@ html {
 }
 
 body {
-    background-color: colors.$c-white;
-    font-family: 'Poppins', sans-serif;
-    color: colors.$c-black;
-    margin: 1rem 4rem;
+    background-color: variables.$col-secondary;
+    font-family: variables.$font-primary;
+    color: variables.$col-primary;
+    margin: 0;
+    font-weight: 300;
 }
 
-
-.hero {
-    display: flex;
-
-        &__text {
-            inline-size: 580px;
-         
-        }
-
-        &__title {
-            font-size: 6rem;
-            line-height: 1;
-            font-weight: 500;
-        }
-
-        &__subtitle {
-            font-size: 1.6rem;
-            font-weight: 300;
-            color: colors.$c-grey;
-        }
-}
 

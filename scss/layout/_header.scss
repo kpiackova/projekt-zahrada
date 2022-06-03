@@ -1,91 +1,144 @@
-@use "../abstracts/colors";
+@use "../abstracts/variables";
 
 .header {
-    display: flex;
-    justify-content: space-between;
-    
+    padding: 1rem 3rem;
+
     &__img {
-        height: 60%;
+        display: none;
+    }
+
+    @media screen and (min-width: 768px) {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    @media screen and (min-width: 1000px) {
+        &__img {
+            display: block;
+            height: 40px;
+            margin-top: 8px;
+        }
     }
 }
 
 .menu {
-   display: flex;
-
+    &__checkbox {
+        position: absolute;
+        left: -9999px;
+    }
+    
     &__list {
-        display: flex;
-        position: relative;
-        white-space: nowrap;
-    }
-
-    &__item {
+        display: none;
+        margin: 0;
+        padding: 0;
         list-style: none;
-        padding-right: 3rem;
+        background-color: variables.$col-secondary;
+    }
+    
+    // &__item {
+    //     border-bottom: 1px solid black;
+    // }
+    
+    &__link {
+        display: block;
+        padding: 15px;
+        font-size: 0.8rem;
+        text-decoration: none;
+        color: variables.$col-primary;
     }
 
-    &__link {
-        text-decoration: none;
-        color: colors.$c-black;
-        font-weight: 300;
+    &__chevron {
+        visibility: hidden;
+    }
+    
+    &__link:hover {
+        background-color: rgba(169, 97, 95, 0.5); 
+    }
+    
+    &__checkbox:checked ~ .menu__list {
+        display: block;
+    }
+    
+    &__toggler {
+        cursor: pointer;
+        position: absolute;
+        top: 2rem;
+        left: 3rem;
     }
 
     &__dropdown {
         display: none;
-        position: absolute;
-        background-color: #f1f1f1;
-        min-width: 160px;
-        box-shadow: 2px 2px 6px 0px rgba(0,0,0,0.2);
-        z-index: 1;
-        padding: 0;
     }
 
-    &__dropdown-item {
-        list-style: none;
-        
-        &:hover {
-            background-color: rgba(169, 97, 95, 0.5); 
+    .lang-switcher {
+        display: flex;
+        justify-content: right;
+    
+        &__item {
+            list-style: none;
+            padding: 0 8px;
+        }
+    
+        &__link {
+            text-decoration: none;
+            color: variables.$col-primary;
+            font-size: 0.8rem;
+            font-weight: 300;
         }
     }
 
-    &__dropdown-link {
-        text-decoration: none;
-        color: colors.$c-black;
-        font-weight: 300;
-        display: inline-block;
-        padding: 10px 20px;
+    @media screen and (min-width: 768px) {
+        display: flex;
+        align-items: center;
+        
+        &__toggler {
+            display: none;
+        }
+
+        &__chevron {
+            visibility: visible;
+        }
+
+        &__list {
+            display: flex !important;
+
+        }
+
+        &__item:hover .menu__link {
+            text-shadow: 0.2px 0.2px 0.1px black;
+        }
+
+        &__item:hover .menu__dropdown {
+            display: block;
+        }
+
+        &__link:hover {
+            background-color: variables.$col-secondary;
+        }
+
+        &__dropdown {
+            position: absolute;
+            background-color: #f1f1f1;
+            min-width: 160px;
+            box-shadow: 2px 2px 6px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+            padding: 0;
+        }
+
+        &__dropdown-item {
+            list-style: none;
+
+            &:hover {
+                background-color: rgba(169, 97, 95, 0.5); 
+            }
+        }
+
+        &__dropdown-link {
+            text-decoration: none;
+            color: variables.$col-primary;
+            font-weight: 300;
+            display: inline-block;
+            padding: 10px 20px;
+        }
     }
 }
-
-
-.menu__item:hover .menu__dropdown {
-    display: block;
-}
-
-/* hover stav hlavního linku při otevřeném dropdownu*/
-.menu__item:hover .menu__link {
-    text-shadow: 0.2px 0.2px 0.1px black;
-}
-
-
-.lang-switcher {
-    display: flex;
-
-    &__item {
-        list-style: none;
-        padding: 0 8px;
-    }
-
-    &__link {
-        text-decoration: none;
-        color: colors.$c-black;
-        font-weight: 300;
-    }
-   
-}
-
-
-
-/*
-<i class="fa-solid fa-chevron-up"></i>
-<i class="fa-solid fa-chevron-down"></i>
-*/

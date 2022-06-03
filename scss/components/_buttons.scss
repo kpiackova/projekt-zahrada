@@ -1,0 +1,61 @@
+@use "../abstracts/variables";
+
+.btn {
+    text-decoration: none;
+    font-weight: 400;
+    color: white;
+    padding: 0.6rem 2rem;
+    display: inline-block;
+
+    &__architektura {
+        background-color: variables.$col-architecture;
+        border: 3px solid variables.$col-architecture;
+             
+        &:hover,
+        &:focus,
+        &:active {
+            background-color: white;
+            border: 3px solid variables.$col-architecture;
+            color: variables.$col-architecture;
+        }
+    }
+
+    &__botanika {
+        background-color: variables.$col-botanic;
+        border: 3px solid variables.$col-botanic;
+             
+        &:hover,
+        &:focus,
+        &:active {
+            background-color: white;
+            border: 3px solid variables.$col-botanic;
+            color: variables.$col-botanic;
+        }
+    }
+
+    &__krajina {
+        background-color: variables.$col-land;
+        border: 3px solid variables.$col-land;
+             
+        &:hover,
+        &:focus,
+        &:active {
+            background-color: white;
+            border: 3px solid variables.$col-land;
+            color: variables.$col-land;
+        }
+    }
+
+    &__badatelna {
+        background-color: variables.$col-studyroom;
+        border: 3px solid variables.$col-studyroom;
+             
+        &:hover,
+        &:focus,
+        &:active {
+            background-color: white;
+            border: 3px solid variables.$col-studyroom;
+            color: variables.$col-studyroom;
+        }
+    }
+}

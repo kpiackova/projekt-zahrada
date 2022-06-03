@@ -1,0 +1,56 @@
+@use "../abstracts/variables";
+
+.footer {
+    background-color: variables.$col-primary;
+    color: variables.$col-secondary;
+
+    padding: 1rem;
+
+    &__copy {
+        font-size: 0.8rem;
+        font-weight: 300;
+        margin-bottom: 1rem;
+    }
+    
+    &__list {
+        padding: 0;
+        margin: 0;
+    }
+
+    &__item {
+        list-style: none;
+        display: inline-block;
+    }
+
+    &__link {
+        text-decoration: none;
+        color: variables.$col-secondary;
+        font-size: 0.8rem;
+        font-weight: 300;
+
+        &:hover {
+            color: variables.$col-architecture;
+        }
+    }
+
+    &__links-spacer {
+        display: inline-block;
+        vertical-align: middle;
+        width: 1px;
+        height: 1.1em;
+        position: relative;
+        top: -1px;
+        background-color: variables.$col-secondary;
+        margin: 0 5px;
+    }
+
+    @media screen and (min-width: 768px) {
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+    }
+
+    @media screen and (min-width: 1000px) {
+        padding: 1rem 4rem;
+    }
+}

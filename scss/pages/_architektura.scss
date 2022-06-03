@@ -1,0 +1,177 @@
+@use "../abstracts/variables";
+
+.hero-subpage {
+    display: flex;
+    flex-direction: column;
+    
+    &__image {
+        display: block;
+        width: 100%;
+        object-fit: cover;
+        max-height: 46vh;
+    }
+
+    &__text-container {
+        background-color:rgba(169, 97, 95, 0.816);
+        overflow: hidden;
+    }
+
+    &__text-container-botanika {
+        background-color: variables.$col-botanic;
+    }
+
+    &__text-container-badatelna {
+        background-color: variables.$col-studyroom;
+    }
+
+    &__text-container-krajina {
+        background-color: variables.$col-land;
+    }
+
+    &__title {
+        font-family: variables.$font-primary;
+        color: white;
+        font-size: 2.5rem;
+        font-weight: 200;
+        line-height: 1.2;
+        margin: 0 1rem;
+        padding: 20px 0;
+    }
+
+    &__perex {
+        display: none;
+    }
+
+    @media screen and (min-width: 768px) {
+        flex-direction: row;
+        
+        &__image-container {
+            width: 60vw;
+        }
+        
+        &__text-container {
+            width: 40vw;
+            padding: 20px;
+        }
+
+        &__title {
+            margin-left: 0;
+            font-size: 3rem;
+        }
+
+        &__perex {
+            display: block;
+            color: white;
+            font-size: 1.1rem;
+            font-weight: 200;
+            margin-bottom: 0;
+            margin-top: 0;
+        }
+    }
+
+    @media screen and (min-width: 1000px) {
+        &__perex {
+            max-width: 70%;
+        }
+    }
+}
+
+.section-subpage {
+    margin: 2rem 1rem;
+
+    &__paragraph-perex {
+        font-size: 1.3rem;
+        font-weight: 200;
+        margin-bottom: 2.5rem;
+    }
+
+    &__paragraph-teaser {
+        background-color: rgba(169, 97, 95, 0.816);
+        color: white;
+        padding: 0.5rem;
+        margin-top: 3rem;
+    }
+
+    &__image {
+        max-width: 100vw;
+        margin: 40px auto;
+    }
+
+    &__image-container {
+        position: relative;
+        max-width: 100vw;
+    }
+
+    &__image-caption {
+        position: absolute;
+        bottom: 20px;
+        left: -10px;
+        font-size: 0.8rem;
+        padding: 0.5rem;
+        background-color: rgba(169, 97, 95, 0.816);
+        color: white;
+    }
+
+    @media screen and (min-width:768px) {
+
+        &__paragraph-perex {
+            margin-bottom: 2.5rem;
+            width: 780px;
+            margin: 0 auto;
+        }
+
+        &__paragraph {
+            width: 780px;
+            margin: 20px auto;
+        }
+
+        &__paragraph-teaser {
+            margin-top: 4rem;
+        }
+
+        &__image {
+            display: block;
+            width: 100%;
+            
+        }
+
+        &__image-container {
+            max-width: 780px;
+            position: relative;
+            margin: 0 auto;
+        }
+
+        &__image-caption {
+            position: absolute;
+            font-size: 1rem;
+            bottom: 10px;
+            left: -30px;
+        }
+    }
+}
+
+.menu-subpage {
+    width: 780px;
+    margin: 20px auto;
+}
+
+.section-subpage {
+    
+    &__title {
+        font-family: variables.$font-secondary;
+        font-size: 1.8rem;
+        font-weight: 300;
+        text-transform: uppercase;
+        max-width: 350px;
+        margin-bottom: 1rem;
+    }
+
+    @media screen and (min-width: 768px) {
+
+        &__title {
+            font-size: 2rem;
+            margin: 3rem auto 1.5rem auto;
+            max-width: 780px;
+        }
+    }
+}
